@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka One', cursive;
+    background-color: aqua;
+}
+
+:root {
+    --black: #333;
+    --black2: #333;
+    --white: #fff;
+    --white2: #fff;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.main {
+    align-items: center;
+    background: var(--white);
+    transition: width 0.5s, left 0.5s;
+}
+
+.banner {
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .content .imgBC {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.banner .imgBC img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner .imgBC img:hover {
+    pointer-events: stroke;
+}
+
+h3 {
+    position: relative;
+    font-size: 1.4em;
+    color: var(--black);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+p {
+    color: black;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    background: var(--black2);
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    display: none
+}
+
+button:hover:before {
+    content: "Reply!"
+}
+
+.socialMedia {
+    background: blueviolet;
+    bottom: 20px;
+    display: flex;
+}
+
+.socialMedia li {
+    list-style: none;
+}
+
+.socialMedia li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    /*background: rgba(0, 0, 0, 0.05);*/
+    margin-top: 15px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 1.5em;
+}
+
+.socialMedia li a:hover {
+    color: white;
+}
+
+/*
+.adjust {
+    position: relative;
+    min-height: 100vh;
+    padding: 0 40px;
+    padding-top: 100px;
+    color: var(--black);
+    display: inline-block;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h2 {
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.title h2::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -10px;
+    width: 50px;
+    height: 2px;
+    background: var(--black);
+}
+
+.about .content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.about .content .textBox {
+    width: 49%;
+    min-width: 49%;
+}
+
+.about .content .imgBx {
+    margin-left: 40px;
+}
+
+.about .content .imgBx img {
+    max-width: 100%;
+}*/
