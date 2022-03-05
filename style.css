@@ -7,6 +7,7 @@
     font-family: 'Fredoka One', cursive;
     background-color: aqua;
     cursor: url("https://cdn.discordapp.com/attachments/949531734762991676/949534501040713758/foo438.png"), auto;
+
 }
 
 :root {
@@ -18,6 +19,7 @@
 
 body {
     overflow-x: hidden;
+
 }
 
 .container {
@@ -126,6 +128,7 @@ button:hover:before {
 
 .socialMedia li a:hover {
     color: white;
+    cursor: url("https://cdn.discordapp.com/attachments/949531734762991676/949532453431820338/mouse.png"), auto;
 }
 
 /*
