@@ -94,7 +94,7 @@ p {
 }
 
 .btn:hover {
-    display: none
+color: green;
 }
 
 button:hover:before {
@@ -128,7 +128,7 @@ button:hover:before {
 
 .socialMedia li a:hover {
     color: white;
-    cursor: url("https://cdn.discordapp.com/attachments/949531734762991676/949532453431820338/mouse.png"), auto;
+    cursor: url("https://cdn.discordapp.com/attachments/949531734762991676/960080918448578590/finger-2.png"), auto;
 }
 
 /*
