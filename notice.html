@@ -9,8 +9,10 @@
 
 </head>
 <style>
-    body {
+    * {
         text-align: center;
+        background-color: aqua;
+        font-family: 'Fredoka One', cursive;
     }
 
     img {
@@ -65,21 +67,24 @@
         }
     }
 
-    button {
-        color: #ffffff;
-        background-color: #2d63c8;
-        font-size: 19px;
-        border: 4px solid #d1d1d1;
-        border-radius: 50px;
-        padding: 15px 50px;
-        letter-spacing: 5px;
-        cursor: pointer
-    }
+    .btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    text-decoration: none;
+}
 
-    button:hover {
-        color: #2d63c8;
-        background-color: #ffffff;
-    }
+.btn:hover {
+color: green;
+}
+
+button:hover:before {
+    content: "Hey!"
+}
 </style>
 
 <body>
@@ -91,8 +96,7 @@
     <br>
     <br>
 
-
-    <button type="button" name="myButton"> <a href="index.html"> Get Back</a></button>
+    <a href="index.html" class="btn" id="button">Get Back</a>
 
 
 </body>
